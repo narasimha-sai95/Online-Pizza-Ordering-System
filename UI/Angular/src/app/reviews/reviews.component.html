@@ -1,0 +1,25 @@
+<table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">UserName</th>
+        <th scope="col">PizzaName</th>
+        <th scope="col">UserRating</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr scope="row" *ngFor="let a of review">
+    
+        <td>{{a.id}}</td>
+        <td>{{a.userName}}</td>
+        <td>{{a.pName}}</td>
+        <td>{{a.ratings}}/10</td>
+        
+            
+        
+        
+        </tr>
+      
+    </tbody>
+  </table>

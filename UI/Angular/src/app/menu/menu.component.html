@@ -1,0 +1,23 @@
+
+<div class="content">
+    <div fxLayout="row wrap" fxLayoutGap="16px">
+      <div [fxFlex]="(100/gridColumns) + '%'" fxFlex.xs="100%" fxFlex.sm="33%" *ngFor="let menu of Menu">
+        <mat-card class="mat-elevation-z4" >
+          <mat-card-header>
+            <mat-card-title>{{menu.name}}</mat-card-title>
+          </mat-card-header>
+          <img mat-card-image src="./../assets/images/spizza.jpg">
+          <mat-card-content>
+            <p>
+                {{menu.description}}            </p>
+          </mat-card-content>
+          <mat-card-actions>
+            <button mat-raised-button color="primary" (click)="onClick(menu)">Add to cart</button>
+            <span class="pull-xs-right tag tag-pill tag-primary"> {{ menu.price | currency: 'INR' }} </span> 
+            <span class="stars"><ngb-rating [max]="5" [(rate)]="starRating" [readonly]="false"></ngb-rating> </span>
+                </mat-card-actions>
+        </mat-card>
+      </div>
+    </div>
+    </div>
+ 

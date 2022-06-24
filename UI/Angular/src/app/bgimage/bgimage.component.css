@@ -1,0 +1,10 @@
+h1{
+    text-align: center;
+}
+.bg{
+    background-image: url("https://img4.findglocal.com/665/939/3103235326659392.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}

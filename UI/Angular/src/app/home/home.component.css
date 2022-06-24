@@ -1,0 +1,35 @@
+h1{
+    color: white;
+}.b1{
+    background-image: url("https://img4.findglocal.com/665/939/3103235326659392.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .h1{
+    font-size: 349%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+    font-size-adjust: inherit;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+  }
+  
+  .h2{
+    font-size: 200%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   color: burlywood;
+    font-style: italic;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 37%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+  }

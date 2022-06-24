@@ -1,0 +1,36 @@
+
+<table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">PizzaName</th>
+        <th scope="col">Size of Pizza</th>
+        <th scope="col">Type</th>
+        <th scope="col">Price</th>
+
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr scope="row" *ngFor="let a of Adcart">
+    
+        <td>{{a.id}}</td>
+        <td>{{a.name}}</td>
+        <td>{{a.size}}</td>
+        <td>{{a.type}}</td>
+        <td>{{a.price}}</td>
+        
+            
+        
+        
+        </tr>
+      
+    </tbody>
+  </table>
+
+
+  <button class="btn btn-primary" type="submit">Checkout</button>
+
+
+
+  
